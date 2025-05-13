@@ -47,7 +47,6 @@ def sacar(*, valor_saque, saldo, extrato):
 
     return saldo, extrato
 
-
 def mostrar_extrato(horario_inicial, saldo_inicial, saldo, /, *, extrato):
     agora = datetime.now().strftime("%d/%m/%Y %H:%M")
     print('==================== EXTRATO ====================')
